@@ -1,0 +1,40 @@
+.sound-button {
+    background: var(--button-bg);
+    border: 2px solid var(--btn-color);
+    border-radius: 12px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.1s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5), inset 0 0 0 0 var(--btn-color);
+}
+
+.sound-button:hover {
+    background: var(--button-hover);
+    box-shadow: 0 0 20px var(--btn-color);
+    transform: translateY(-2px);
+}
+
+.sound-button:active,
+.sound-button.active {
+    transform: translateY(2px);
+    background: var(--btn-color);
+    box-shadow: 0 0 30px var(--btn-color), inset 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.button-label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--text-color);
+    z-index: 1;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.sound-button.active .button-label {
+    color: #000;
+}
