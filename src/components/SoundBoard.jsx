@@ -13,7 +13,7 @@ const sounds = [
     { id: 4, label: 'よっしゃぁ！', src: getSoundPath('yossya.mp3'), color: '#4ed5ab' },
     { id: 5, label: 'う、あ、あ、ぇえ…？', src: getSoundPath('momochi.mp3'), color: '#4ed5ab' },
     { id: 6, label: '実を言うと、地球はもう、だめです', src: getSoundPath('moudamedesu.mp3'), color: '#4ed5ab' },
-    // { id: 7, label: 'や゙だ', src: getSoundPath('yada.mp3'), color: '#00ff00' },
+    { id: 7, label: 'うんち！', src: getSoundPath('unchi.mp3'), color: '#4ed5ab' },
     // { id: 8, label: 'ね゙っ゙ あ゙ーーー', src: getSoundPath('aa.mp3'), color: '#ff0000' },
     // { id: 9, label: '神ゲー', src: getSoundPath('kamige.mp3'), color: '#0000ff' },
     // { id: 10, label: 'あまあま寝かしつけボイス', src: getSoundPath('nekashitsuke.mp3'), color: '#ff00ff' },
